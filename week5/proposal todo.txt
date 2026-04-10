@@ -1,0 +1,63 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+"What now?"
+
+2. What real-world problem will your program address or help to solve?
+    I will create a to-do list where the user can create a list os items or things he has to-do and each item can have a sub-item,
+    where he can divide the main item in parts.
+
+3. What will you learn from developing this program?
+    Use tkinter, and use lists and dictionaries
+
+4. What Python modules will your program use?
+    tkinter, datetime, pytest
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+
+5. List the names of functions you will need?
+    create_item
+    create_subitem
+    delete_item
+    delete_subitem
+    alter_item
+    alter_subitem
+    check_item
+    check_subitem
+    show_time
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+
+
+6. List the names of the test functions you will write.
+    test_create_item
+    test_create_subitem
+    test_delete_item
+    test_delete_subitem
+    test_alter_item
+    test_alter_subitem
+    test_check_item
+    test_check_subitem
+    test_show_time
+    
